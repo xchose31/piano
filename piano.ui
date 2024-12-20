@@ -1,0 +1,1063 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>mainWindow</class>
+ <widget class="QMainWindow" name="mainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>910</width>
+    <height>710</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Пианино</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="Do1">
+    <property name="geometry">
+     <rect>
+      <x>94</x>
+      <y>390</y>
+      <width>41</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#Do1{
+background-color: rgb(242, 242, 242);
+background-color: qlineargradient(spread:pad, x1:1, y1:0.711, x2:0.903455, y2:0.711, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+font-size: 25px;
+color:Black;
+}
+
+
+#Do1:pressed{
+background-color: rgb(250, 250, 250);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>
+
+
+Q</string>
+    </property>
+    <property name="shortcut">
+     <string>A</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">Notes_keys</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="Re1">
+    <property name="geometry">
+     <rect>
+      <x>134</x>
+      <y>390</y>
+      <width>41</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#Re1{
+background-color: rgb(242, 242, 242);
+background-color: qlineargradient(spread:pad, x1:1, y1:0.711, x2:0.903455, y2:0.711, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+font-size: 25px;
+color:Black;
+}
+
+
+#Re1:pressed{
+background-color: rgb(250, 250, 250);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>
+
+
+W</string>
+    </property>
+    <property name="shortcut">
+     <string>A</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">Notes_keys</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="Mi1">
+    <property name="geometry">
+     <rect>
+      <x>174</x>
+      <y>390</y>
+      <width>41</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#Mi1{
+background-color: rgb(242, 242, 242);
+background-color: qlineargradient(spread:pad, x1:1, y1:0.711, x2:0.903455, y2:0.711, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+font-size: 25px;
+color:Black;
+}
+
+
+#Mi1:pressed{
+background-color: rgb(250, 250, 250);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>
+
+
+E</string>
+    </property>
+    <property name="shortcut">
+     <string>A</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">Notes_keys</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="Fa1">
+    <property name="geometry">
+     <rect>
+      <x>214</x>
+      <y>390</y>
+      <width>41</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#Fa1{
+background-color: rgb(242, 242, 242);
+background-color: qlineargradient(spread:pad, x1:1, y1:0.711, x2:0.903455, y2:0.711, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+font-size: 25px;
+color:Black;
+}
+
+
+#Fa1:pressed{
+background-color: rgb(250, 250, 250);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>
+
+
+R</string>
+    </property>
+    <property name="shortcut">
+     <string>A</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">Notes_keys</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="Sol1">
+    <property name="geometry">
+     <rect>
+      <x>254</x>
+      <y>390</y>
+      <width>41</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#Sol1{
+background-color: rgb(242, 242, 242);
+background-color: qlineargradient(spread:pad, x1:1, y1:0.711, x2:0.903455, y2:0.711, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+font-size: 25px;
+color:Black;
+}
+
+
+#Sol1:pressed{
+background-color: rgb(250, 250, 250);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>
+
+
+T</string>
+    </property>
+    <property name="shortcut">
+     <string>A</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">Notes_keys</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="La1">
+    <property name="geometry">
+     <rect>
+      <x>294</x>
+      <y>390</y>
+      <width>41</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#La1{
+background-color: rgb(242, 242, 242);
+background-color: qlineargradient(spread:pad, x1:1, y1:0.711, x2:0.903455, y2:0.711, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+font-size: 25px;
+color:Black;
+}
+
+
+#La1:pressed{
+background-color: rgb(250, 250, 250);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>
+
+
+Y</string>
+    </property>
+    <property name="shortcut">
+     <string>A</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">Notes_keys</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="Si1">
+    <property name="geometry">
+     <rect>
+      <x>334</x>
+      <y>390</y>
+      <width>41</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#Si1{
+background-color: rgb(242, 242, 242);
+background-color: qlineargradient(spread:pad, x1:1, y1:0.711, x2:0.903455, y2:0.711, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+font-size: 25px;
+color:Black;
+}
+
+
+#Si1:pressed{
+background-color: rgb(250, 250, 250);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>
+
+
+U</string>
+    </property>
+    <property name="shortcut">
+     <string>A</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">Notes_keys</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="Do2">
+    <property name="geometry">
+     <rect>
+      <x>374</x>
+      <y>390</y>
+      <width>41</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#Do2{
+background-color: rgb(242, 242, 242);
+background-color: qlineargradient(spread:pad, x1:1, y1:0.711, x2:0.903455, y2:0.711, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+font-size: 25px;
+color:Black;
+}
+
+
+#Do2:pressed{
+background-color: rgb(250, 250, 250);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>
+
+
+I</string>
+    </property>
+    <property name="shortcut">
+     <string>A</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">Notes_keys</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="Re2">
+    <property name="geometry">
+     <rect>
+      <x>414</x>
+      <y>390</y>
+      <width>41</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#Re2{
+background-color: rgb(242, 242, 242);
+background-color: qlineargradient(spread:pad, x1:1, y1:0.711, x2:0.903455, y2:0.711, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+font-size: 25px;
+color:Black;
+}
+
+
+#Re2:pressed{
+background-color: rgb(250, 250, 250);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>
+
+
+O</string>
+    </property>
+    <property name="shortcut">
+     <string>A</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">Notes_keys</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="Mi2">
+    <property name="geometry">
+     <rect>
+      <x>454</x>
+      <y>390</y>
+      <width>41</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#Mi2{
+background-color: rgb(242, 242, 242);
+background-color: qlineargradient(spread:pad, x1:1, y1:0.711, x2:0.903455, y2:0.711, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+font-size: 25px;
+color:Black;
+}
+
+
+#Mi2:pressed{
+background-color: rgb(250, 250, 250);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>
+
+
+P</string>
+    </property>
+    <property name="shortcut">
+     <string>A</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">Notes_keys</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="Fa2">
+    <property name="geometry">
+     <rect>
+      <x>494</x>
+      <y>390</y>
+      <width>41</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#Fa2{
+background-color: rgb(242, 242, 242);
+background-color: qlineargradient(spread:pad, x1:1, y1:0.711, x2:0.903455, y2:0.711, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+font-size: 25px;
+color:Black;
+}
+
+
+#Fa2:pressed{
+background-color: rgb(250, 250, 250);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>
+
+
+Z</string>
+    </property>
+    <property name="shortcut">
+     <string>A</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">Notes_keys</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="Sol2">
+    <property name="geometry">
+     <rect>
+      <x>534</x>
+      <y>390</y>
+      <width>41</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#Sol2{
+background-color: rgb(242, 242, 242);
+background-color: qlineargradient(spread:pad, x1:1, y1:0.711, x2:0.903455, y2:0.711, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+font-size: 25px;
+color:Black;
+}
+
+
+#Sol2:pressed{
+background-color: rgb(250, 250, 250);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>
+
+
+X</string>
+    </property>
+    <property name="shortcut">
+     <string>A</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">Notes_keys</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="La2">
+    <property name="geometry">
+     <rect>
+      <x>574</x>
+      <y>390</y>
+      <width>41</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#La2{
+background-color: rgb(242, 242, 242);
+background-color: qlineargradient(spread:pad, x1:1, y1:0.711, x2:0.903455, y2:0.711, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+font-size: 25px;
+color:Black;
+}
+
+
+#La2:pressed{
+background-color: rgb(250, 250, 250);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>
+
+
+C</string>
+    </property>
+    <property name="shortcut">
+     <string>A</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">Notes_keys</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="Si2">
+    <property name="geometry">
+     <rect>
+      <x>614</x>
+      <y>390</y>
+      <width>41</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#Si2{
+background-color: rgb(242, 242, 242);
+background-color: qlineargradient(spread:pad, x1:1, y1:0.711, x2:0.903455, y2:0.711, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+font-size: 25px;
+color:Black;
+}
+
+
+#Si2:pressed{
+background-color: rgb(250, 250, 250);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>
+
+
+V</string>
+    </property>
+    <property name="shortcut">
+     <string>A</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">Notes_keys</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="Do1_diez">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>115</x>
+      <y>390</y>
+      <width>31</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="tabletTracking">
+     <bool>false</bool>
+    </property>
+    <property name="acceptDrops">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#Do1_diez{
+background-color: rgb(0, 0, 0);
+background-color: qlineargradient(spread:pad, x1:0.028, y1:0.619, x2:1, y2:0.494, stop:0.852273 rgba(0, 0, 0, 250), stop:1 rgba(255, 255, 255, 255));
+color: White;
+font-size: 22px;
+}
+#Do1_diez:pressed{
+background-color: rgb(0, 0, 0);
+
+	background-color: qlineargradient(spread:pad, x1:0.857955, y1:0.0170455, x2:1, y2:0, stop:0.125 rgba(0, 0, 0, 255), stop:0.977273 rgba(255, 255, 255, 255));
+
+}
+</string>
+    </property>
+    <property name="text">
+     <string>2</string>
+    </property>
+    <property name="shortcut">
+     <string>Q</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">Notes_keys</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="Re1_diez">
+    <property name="geometry">
+     <rect>
+      <x>161</x>
+      <y>390</y>
+      <width>31</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#Re1_diez{
+background-color: rgb(0, 0, 0);
+background-color: qlineargradient(spread:pad, x1:0.028, y1:0.619, x2:1, y2:0.494, stop:0.852273 rgba(0, 0, 0, 250), stop:1 rgba(255, 255, 255, 255));
+color: White;
+font-size: 22px;
+}
+#Re1_diez:pressed{
+background-color: rgb(0, 0, 0);
+
+	background-color: qlineargradient(spread:pad, x1:0.857955, y1:0.0170455, x2:1, y2:0, stop:0.125 rgba(0, 0, 0, 255), stop:0.977273 rgba(255, 255, 255, 255));
+
+}
+</string>
+    </property>
+    <property name="text">
+     <string>3</string>
+    </property>
+    <property name="shortcut">
+     <string>W</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">Notes_keys</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="La1_diez">
+    <property name="geometry">
+     <rect>
+      <x>322</x>
+      <y>390</y>
+      <width>31</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#La1_diez{
+background-color: rgb(0, 0, 0);
+background-color: qlineargradient(spread:pad, x1:0.028, y1:0.619, x2:1, y2:0.494, stop:0.852273 rgba(0, 0, 0, 250), stop:1 rgba(255, 255, 255, 255));
+color: White;
+font-size: 22px;
+}
+#La1_diez:pressed{
+background-color: rgb(0, 0, 0);
+
+	background-color: qlineargradient(spread:pad, x1:0.857955, y1:0.0170455, x2:1, y2:0, stop:0.125 rgba(0, 0, 0, 255), stop:0.977273 rgba(255, 255, 255, 255));
+
+}
+</string>
+    </property>
+    <property name="text">
+     <string>7</string>
+    </property>
+    <property name="shortcut">
+     <string>W</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">Notes_keys</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="Fa1_diez">
+    <property name="geometry">
+     <rect>
+      <x>234</x>
+      <y>390</y>
+      <width>31</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#Fa1_diez{
+background-color: rgb(0, 0, 0);
+background-color: qlineargradient(spread:pad, x1:0.028, y1:0.619, x2:1, y2:0.494, stop:0.852273 rgba(0, 0, 0, 250), stop:1 rgba(255, 255, 255, 255));
+color: White;
+font-size: 22px;
+}
+#Fa1_diez:pressed{
+background-color: rgb(0, 0, 0);
+
+	background-color: qlineargradient(spread:pad, x1:0.857955, y1:0.0170455, x2:1, y2:0, stop:0.125 rgba(0, 0, 0, 255), stop:0.977273 rgba(255, 255, 255, 255));
+
+}
+</string>
+    </property>
+    <property name="text">
+     <string>5</string>
+    </property>
+    <property name="shortcut">
+     <string>W</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">Notes_keys</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="Sol1_diez">
+    <property name="geometry">
+     <rect>
+      <x>278</x>
+      <y>390</y>
+      <width>31</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#Sol1_diez{
+background-color: rgb(0, 0, 0);
+background-color: qlineargradient(spread:pad, x1:0.028, y1:0.619, x2:1, y2:0.494, stop:0.852273 rgba(0, 0, 0, 250), stop:1 rgba(255, 255, 255, 255));
+color: White;
+font-size: 22px;
+}
+#Sol1_diez:pressed{
+background-color: rgb(0, 0, 0);
+
+	background-color: qlineargradient(spread:pad, x1:0.857955, y1:0.0170455, x2:1, y2:0, stop:0.125 rgba(0, 0, 0, 255), stop:0.977273 rgba(255, 255, 255, 255));
+
+}
+</string>
+    </property>
+    <property name="text">
+     <string>6</string>
+    </property>
+    <property name="shortcut">
+     <string>W</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">Notes_keys</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="Do2_diez">
+    <property name="geometry">
+     <rect>
+      <x>394</x>
+      <y>390</y>
+      <width>31</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#Do2_diez{
+background-color: rgb(0, 0, 0);
+background-color: qlineargradient(spread:pad, x1:0.028, y1:0.619, x2:1, y2:0.494, stop:0.852273 rgba(0, 0, 0, 250), stop:1 rgba(255, 255, 255, 255));
+color: White;
+font-size: 22px;
+}
+#Do2_diez:pressed{
+background-color: rgb(0, 0, 0);
+
+	background-color: qlineargradient(spread:pad, x1:0.857955, y1:0.0170455, x2:1, y2:0, stop:0.125 rgba(0, 0, 0, 255), stop:0.977273 rgba(255, 255, 255, 255));
+
+}
+</string>
+    </property>
+    <property name="text">
+     <string>9</string>
+    </property>
+    <property name="shortcut">
+     <string>W</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">Notes_keys</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="Re2_diez">
+    <property name="geometry">
+     <rect>
+      <x>439</x>
+      <y>390</y>
+      <width>31</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#Re2_diez{
+background-color: rgb(0, 0, 0);
+background-color: qlineargradient(spread:pad, x1:0.028, y1:0.619, x2:1, y2:0.494, stop:0.852273 rgba(0, 0, 0, 250), stop:1 rgba(255, 255, 255, 255));
+color: White;
+font-size: 22px;
+}
+#Re2_diez:pressed{
+background-color: rgb(0, 0, 0);
+
+	background-color: qlineargradient(spread:pad, x1:0.857955, y1:0.0170455, x2:1, y2:0, stop:0.125 rgba(0, 0, 0, 255), stop:0.977273 rgba(255, 255, 255, 255));
+
+}
+</string>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+    <property name="shortcut">
+     <string>W</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">Notes_keys</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="Fa2_diez">
+    <property name="geometry">
+     <rect>
+      <x>514</x>
+      <y>390</y>
+      <width>31</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#Fa2_diez{
+background-color: rgb(0, 0, 0);
+background-color: qlineargradient(spread:pad, x1:0.028, y1:0.619, x2:1, y2:0.494, stop:0.852273 rgba(0, 0, 0, 250), stop:1 rgba(255, 255, 255, 255));
+color: White;
+font-size: 22px;
+}
+#Fa2_diez:pressed{
+background-color: rgb(0, 0, 0);
+
+	background-color: qlineargradient(spread:pad, x1:0.857955, y1:0.0170455, x2:1, y2:0, stop:0.125 rgba(0, 0, 0, 255), stop:0.977273 rgba(255, 255, 255, 255));
+
+}
+</string>
+    </property>
+    <property name="text">
+     <string>S</string>
+    </property>
+    <property name="shortcut">
+     <string>W</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">Notes_keys</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="Sol2_diez">
+    <property name="geometry">
+     <rect>
+      <x>557</x>
+      <y>390</y>
+      <width>31</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#Sol2_diez{
+background-color: rgb(0, 0, 0);
+background-color: qlineargradient(spread:pad, x1:0.028, y1:0.619, x2:1, y2:0.494, stop:0.852273 rgba(0, 0, 0, 250), stop:1 rgba(255, 255, 255, 255));
+color: White;
+font-size: 22px;
+}
+#Sol2_diez:pressed{
+background-color: rgb(0, 0, 0);
+
+	background-color: qlineargradient(spread:pad, x1:0.857955, y1:0.0170455, x2:1, y2:0, stop:0.125 rgba(0, 0, 0, 255), stop:0.977273 rgba(255, 255, 255, 255));
+
+}
+</string>
+    </property>
+    <property name="text">
+     <string>D</string>
+    </property>
+    <property name="shortcut">
+     <string>W</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">Notes_keys</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="La2_diez">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>390</y>
+      <width>31</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#La2_diez{
+background-color: rgb(0, 0, 0);
+background-color: qlineargradient(spread:pad, x1:0.028, y1:0.619, x2:1, y2:0.494, stop:0.852273 rgba(0, 0, 0, 250), stop:1 rgba(255, 255, 255, 255));
+color: White;
+font-size: 22px;
+}
+#La2_diez:pressed{
+background-color: rgb(0, 0, 0);
+
+	background-color: qlineargradient(spread:pad, x1:0.857955, y1:0.0170455, x2:1, y2:0, stop:0.125 rgba(0, 0, 0, 255), stop:0.977273 rgba(255, 255, 255, 255));
+
+}
+</string>
+    </property>
+    <property name="text">
+     <string>F</string>
+    </property>
+    <property name="shortcut">
+     <string>W</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">Notes_keys</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="change_btn">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>40</y>
+      <width>121</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Изменить клавишу</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="key_before">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="key_after">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>40</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>40</y>
+      <width>31</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-size:20px;</string>
+    </property>
+    <property name="text">
+     <string>-&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="add_lvl_btn">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>90</y>
+      <width>131</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Создать уровень</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="start_lvl_btn">
+    <property name="geometry">
+     <rect>
+      <x>639</x>
+      <y>100</y>
+      <width>121</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Начать уровень</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>40</y>
+      <width>241</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Выбрать уровень:(номер или название)</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="stop_btn">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>170</y>
+      <width>121</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Стоп</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="notes_label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>250</y>
+      <width>641</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-size:20px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="image_label">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>300</y>
+      <width>191</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="timer_label">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>240</y>
+      <width>121</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-size:17px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="show_lvls">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>90</y>
+      <width>131</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Показать уровни</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lvl_edit">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>70</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>910</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+ <buttongroups>
+  <buttongroup name="Notes_keys"/>
+ </buttongroups>
+</ui>
